@@ -57,64 +57,64 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Editor\ImportGP.cs" />
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>D:/Blender/2.8/GP-Unity/GP-UnityProject/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>D:/Blender/2.8/GP-Unity/GreasePencilToUnity/GP-UnityProject/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>D:/Blender/2.8/GP-Unity/GP-UnityProject/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>D:/Blender/2.8/GP-Unity/GreasePencilToUnity/GP-UnityProject/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>D:/Blender/2.8/GP-Unity/GP-UnityProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>D:/Blender/2.8/GP-Unity/GreasePencilToUnity/GP-UnityProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>D:/Blender/2.8/GP-Unity/GP-UnityProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>D:/Blender/2.8/GP-Unity/GreasePencilToUnity/GP-UnityProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Core.Editor">
- <HintPath>D:/Blender/2.8/GP-Unity/GP-UnityProject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+ <HintPath>D:/Blender/2.8/GP-Unity/GreasePencilToUnity/GP-UnityProject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Core.Runtime">
- <HintPath>D:/Blender/2.8/GP-Unity/GP-UnityProject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+ <HintPath>D:/Blender/2.8/GP-Unity/GreasePencilToUnity/GP-UnityProject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/Blender/2.8/GP-Unity/GP-UnityProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>D:/Blender/2.8/GP-Unity/GreasePencilToUnity/GP-UnityProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Lightweight.Runtime">
- <HintPath>D:/Blender/2.8/GP-Unity/GP-UnityProject/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Runtime.dll</HintPath>
+ <HintPath>D:/Blender/2.8/GP-Unity/GreasePencilToUnity/GP-UnityProject/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Lightweight.Editor">
- <HintPath>D:/Blender/2.8/GP-Unity/GP-UnityProject/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Editor.dll</HintPath>
+ <HintPath>D:/Blender/2.8/GP-Unity/GreasePencilToUnity/GP-UnityProject/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/Blender/2.8/GP-Unity/GP-UnityProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/Blender/2.8/GP-Unity/GreasePencilToUnity/GP-UnityProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>D:/Blender/2.8/GP-Unity/GP-UnityProject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>D:/Blender/2.8/GP-Unity/GreasePencilToUnity/GP-UnityProject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>D:/Blender/2.8/GP-Unity/GP-UnityProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>D:/Blender/2.8/GP-Unity/GreasePencilToUnity/GP-UnityProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Postprocessing.Editor">
- <HintPath>D:/Blender/2.8/GP-Unity/GP-UnityProject/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ <HintPath>D:/Blender/2.8/GP-Unity/GreasePencilToUnity/GP-UnityProject/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>D:/Blender/2.8/GP-Unity/GP-UnityProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>D:/Blender/2.8/GP-Unity/GreasePencilToUnity/GP-UnityProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
- <HintPath>D:/Blender/2.8/GP-Unity/GP-UnityProject/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+ <HintPath>D:/Blender/2.8/GP-Unity/GreasePencilToUnity/GP-UnityProject/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Postprocessing.Runtime">
- <HintPath>D:/Blender/2.8/GP-Unity/GP-UnityProject/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ <HintPath>D:/Blender/2.8/GP-Unity/GreasePencilToUnity/GP-UnityProject/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ShaderGraph.Editor">
- <HintPath>D:/Blender/2.8/GP-Unity/GP-UnityProject/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+ <HintPath>D:/Blender/2.8/GP-Unity/GreasePencilToUnity/GP-UnityProject/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
- <HintPath>D:/Blender/2.8/GP-Unity/GP-UnityProject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+ <HintPath>D:/Blender/2.8/GP-Unity/GreasePencilToUnity/GP-UnityProject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/Blender/2.8/GP-Unity/GP-UnityProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>D:/Blender/2.8/GP-Unity/GreasePencilToUnity/GP-UnityProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>D:/Blender/2.8/GP-Unity/GP-UnityProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>D:/Blender/2.8/GP-Unity/GreasePencilToUnity/GP-UnityProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity-2019.2.19f1/2019.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -306,7 +306,7 @@
  <HintPath>C:/Program Files/Unity-2019.2.19f1/2019.2.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>D:/Blender/2.8/GP-Unity/GP-UnityProject/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>D:/Blender/2.8/GP-Unity/GreasePencilToUnity/GP-UnityProject/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity-2019.2.19f1/2019.2.19f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

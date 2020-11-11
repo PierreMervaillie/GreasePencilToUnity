@@ -111,6 +111,18 @@ public class ImportGP : EditorWindow
             //for each key frame : add keyframe visibility
             foreach (string str in ark)
             {
+                int prevKeyTime = 0;
+                int nextKeyTime = 0;
+                //get previous and next keyframe time :
+                if (j>0 && j < ark.Length - 1) {
+                    string prevKey = ark[j - 1];
+                    string nextKey = ark[j + 1];
+
+                    bool res1 = int.TryParse(prevKey, out prevKeyTime);
+                    bool res2 = int.TryParse(nextKey, out nextKeyTime);
+
+                    
+                }
 
                 if (j != 0) {
 
@@ -125,7 +137,7 @@ public class ImportGP : EditorWindow
                         //keyTime = int.Parse(str);
 
                         keys[0] = new Keyframe((keyTime) * deltaTime, 1f);
-                        keys[1] = new Keyframe((keyTime + 1) * deltaTime, 0f);
+                        keys[1] = new Keyframe((nextKeyTime) * deltaTime, 0f);
 
                     }
                     else
@@ -136,9 +148,9 @@ public class ImportGP : EditorWindow
                         bool res = int.TryParse(str, out keyTime);
                         //keyTime = int.Parse(str);
 
-                        keys[0] = new Keyframe((keyTime - 1) * deltaTime, 0f);
+                        keys[0] = new Keyframe((prevKeyTime) * deltaTime, 0f);
                         keys[1] = new Keyframe((keyTime) * deltaTime, 1f);
-                        keys[2] = new Keyframe((keyTime + 1) * deltaTime, 0f);
+                        keys[2] = new Keyframe((nextKeyTime) * deltaTime, 0f);
 
                     }
 

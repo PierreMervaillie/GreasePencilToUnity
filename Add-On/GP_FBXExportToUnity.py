@@ -344,8 +344,18 @@ class OBJECT_OT_GpToUnityExportAnimated(Operator):
 
         
         #get object in selection, for each, set active and selection
+        selObjs = bpy.context.selected_objects
         
-        exportGP(self,context,True) #is animated
+        for selObj in selObjs :
+            selObj.select_set(False)
+            
+        for selObj in selObjs :            
+            if selObj.type == "GPENCIL" :
+                bpy.ops.object.select_all(action='DESELECT')
+                selObj.select_set(True)
+                bpy.context.view_layer.objects.active = selObj
+                                
+                exportGP(self,context,True) #is animated
 
         return {'FINISHED'}
 
@@ -361,8 +371,17 @@ class OBJECT_OT_GpToUnityExportStatic(Operator):
          
     def execute(self, context):
         # create 3D Materials from GP Materials
+        selObjs = bpy.context.selected_objects
         
-        exportGP(self,context,False) #is static
+        for selObj in selObjs :
+            selObj.select_set(False)
+            
+        for selObj in selObjs :            
+            if selObj.type == "GPENCIL" :
+                bpy.ops.object.select_all(action='DESELECT')
+                selObj.select_set(True)
+                bpy.context.view_layer.objects.active = selObj
+                exportGP(self,context,False) #is static
 
         return {'FINISHED'}
         
