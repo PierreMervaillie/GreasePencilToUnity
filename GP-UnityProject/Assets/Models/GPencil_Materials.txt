@@ -1,0 +1,1 @@
+#LineTexture,0.0,0.044479675590991974,1.0,1.0,GP_Characoal.png
