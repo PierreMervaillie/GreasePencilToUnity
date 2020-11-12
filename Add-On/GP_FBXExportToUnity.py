@@ -132,10 +132,10 @@ def exportGP (self, context, animated) :
     ### CONVERT GREASE PENCIL ###
 
     
-    startFrame = bpy.data.scenes["Scene"].frame_start
-    endFrame = bpy.data.scenes["Scene"].frame_end
+    startFrame = bpy.context.scene.frame_start
+    endFrame = bpy.context.scene.frame_end
 
-    saveFrame = bpy.data.scenes["Scene"].frame_current
+    saveFrame = bpy.context.scene.frame_current
     
     
     order = 0
@@ -163,7 +163,7 @@ def exportGP (self, context, animated) :
             frameW = str(frameNbr) + ","
             frameToWrite = frameToWrite + frameW
                             
-            bpy.data.scenes["Scene"].frame_current = frameNbr 
+            bpy.context.scene.frame_set(frameNbr)
             bpy.context.view_layer.update()
 
             
@@ -321,7 +321,7 @@ def exportGP (self, context, animated) :
     
     # Clean Scene
     bpy.ops.object.delete() 
-    bpy.data.scenes["Scene"].frame_current = saveFrame
+    bpy.context.scene.frame_set(saveFrame)
     
     #Clean Materials
     for matC in matCreated :
