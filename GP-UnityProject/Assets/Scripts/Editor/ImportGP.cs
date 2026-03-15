@@ -16,7 +16,7 @@ public class ImportGP : EditorWindow
     [MenuItem("GameObject/ImportGP")]
     public static void ShowWindow()
     {
-        GetWindow<ImportGP>(false, "Grease Pencil Importer", true);
+        GetWindow<ImportGP>(false, "GP Importer", true);
     }
 
     void OnGUI()
@@ -27,20 +27,11 @@ public class ImportGP : EditorWindow
 
 
 
-
         GUILayout.Label("Grease Pencil Object", style);
         source = EditorGUILayout.ObjectField(source, typeof(Object), true);
 
         GUILayout.Label("Create Corresponding Animation", style);
 
-        /* Not Working as intended
-        //EditorGUILayout.FloatField("Delta Time", deltaTime);
-        if (GUILayout.Button("Loop Animation"))
-        {
-            loop = !loop;
-        }
-        EditorGUILayout.Toggle("Loop Animation", loop);
-        */
 
         GUILayout.Label("Create Animation");
         if (GUILayout.Button("Create Animation"))
@@ -63,15 +54,6 @@ public class ImportGP : EditorWindow
             CreateMaterials(objPath);
 
         }
-
-        /*if (GUILayout.Button("Refresh Materials"))  ##TODO
-        {
-            string objPath = AssetDatabase.GetAssetPath(source);
-            objPath = objPath.Substring(0, objPath.Length - 4); ;
-
-            RefreshMaterials(objPath);
-
-        }*/
     }
 
     void CreateAnimation(string pathID)
@@ -207,7 +189,6 @@ public class ImportGP : EditorWindow
             if (ar != "") {
 
                 string[] arm = ar.Split(',');
-                //Debug.Log( arm[1] + "__" + arm[2]);
                 string materialName = arm[0];
                 float materialColR = float.Parse(arm[1], CultureInfo.InvariantCulture);
                 float materialColG = float.Parse(arm[2], CultureInfo.InvariantCulture);
