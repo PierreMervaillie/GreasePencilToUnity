@@ -52,6 +52,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Camera_WIdth: 1
+    - _Prop: 0.01
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors: []
